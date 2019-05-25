@@ -10,16 +10,6 @@ description:
   # Description of your site. This will show up on the front page.
   subtitle: Writings and ideas about design and other creative endeavors. Maintained by Stijn van Cuijk.
 
-author:
-  name: Dr. Jekyll # Change this!
-
-  # Necessary for contact page
-  email: your@email.com # Change this!
-
-  # Optional text (html) to display after author name. Leave empty if you don't
-  # want it.
-  info:
-
 # The URL of the homepage of your site (without trailing slash). Leave this
 # empty when you run Jekyll locally.
 url: http://localhost:4000
@@ -46,22 +36,6 @@ theme-color-attr: "#00f0ff"
 
 # Color of Microsoft live Tile.
 ms-tile-color: "#00f0ff"
-
-# Color used throughout the theme. Format: R, G, B.
-theme-color: 0, 240, 255 # Original: 0, 240, 255
-
-# Text color used throughout the theme. Format: R, G, B.
-text-color: 0, 0, 0 # Original: 0, 0, 0
-
-# Background color used throughout the theme. Format: R, G, B.
-# Note: if you change the background color AND you use cover images, you should
-#       also change the CSS gradient in "_includes\gradient.css" to match the
-#       background color. Edit and copy it from here:
-#       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
-background-color: 255, 255, 255 # Original: 255, 255, 255
-
-display-author-post-page: true
-display-author-front-page: true
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
 date_format: "%b %-d, %Y"

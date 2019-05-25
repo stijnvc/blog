@@ -1,27 +1,19 @@
 
 # The name of your website.
-name: Holo Alfa
+name: A Blog About Design
 
 description:
 
   # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta: Writings and ideas about design and other creative endeavors. Maintained by Stijn van Cuijk.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/stijnvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle: Writings and ideas about design and other creative endeavors. Maintained by Stijn van Cuijk.
 
-author:
-  name: Dr. Jekyll # Change this!
-
-  # Necessary for contact page
-  email: your@email.com # Change this!
-
-  # Optional text (html) to display after author name. Leave empty if you don't
-  # want it.
-  info:
-
-url: http://steinvc.github.io
-baseurl: "/holo-alfa"
+# The URL of the homepage of your site (without trailing slash). Leave this
+# empty when you run Jekyll locally.
+url: https://blog.stijnvancuijk.com
+baseurl: ""
 
 # language attribute in <html> element.
 lang: en
@@ -35,11 +27,6 @@ lang: en
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
-display-social-icons: false
-# If you want social links to open in a new tab, set this as true
-social-icons-open-newtab: true
-
-footer-text: This is the footer.<br><a href="http://stijnvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://stijnvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
@@ -50,22 +37,6 @@ theme-color-attr: "#00f0ff"
 # Color of Microsoft live Tile.
 ms-tile-color: "#00f0ff"
 
-# Color used throughout the theme. Format: R, G, B.
-theme-color: 0, 240, 255 # Original: 0, 240, 255
-
-# Text color used throughout the theme. Format: R, G, B.
-text-color: 0, 0, 0 # Original: 0, 0, 0
-
-# Background color used throughout the theme. Format: R, G, B.
-# Note: if you change the background color AND you use cover images, you should
-#       also change the CSS gradient in "_includes\gradient.css" to match the
-#       background color. Edit and copy it from here:
-#       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
-background-color: 255, 255, 255 # Original: 255, 255, 255
-
-display-author-post-page: true
-display-author-front-page: true
-
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
 date_format: "%b %-d, %Y"
 
@@ -74,10 +45,10 @@ date_format: "%b %-d, %Y"
 nav-breaking-point: 520px
 
 # Number of posts on each page.
-paginate: 3
+paginate: 7
 
 # Display links for the previous and next post on post pages.
-display-next-prev-post: false
+display-next-prev-post: true
 
 # Leave empty if you don't want comments on post pages.
 disqus-shortname:
@@ -87,6 +58,7 @@ disqus-shortname:
 # SOCIAL ICONS #
 ################
 
+display-social-icons: true
 # Use a complete url here, including http:// and such. Requiring just usernames
 # has been considered, but this is way more customizable.
 twitter:
@@ -98,9 +70,9 @@ google-plus:
 reddit:
 soundcloud:
 medium:
-linkedin:
-github:
-behance:
+linkedin: https://www.linkedin.com/in/stijnvancuijk/
+github: https://github.com/stijnvc
+behance: https://www.behance.net/stijnvc
 codepen:
 dribbble:
 trello:
