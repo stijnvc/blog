@@ -1,0 +1,305 @@
+
+
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight Text Pro Web';
+    src: url('fonts/FreightTextPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight Text Pro Web';
+    src: url('fonts/FreightTextPro-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Freight Text Pro Web';
+    src: url('fonts/FreightTextPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight Text Pro Web';
+    src: url('fonts/FreightTextPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-SemiBold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-SemiBoldItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: 'Freight Sans Pro Web', sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgba(0,0,0,.84);
+}
+.wrap {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+article,
+.pagination {
+  margin: 3em 0;
+}
+header,
+footer {
+  margin: 5em 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+  line-height: 1.4;
+}
+.website-title {
+  img {
+    margin-bottom: .2em;
+  }
+}
+nav a {
+  font-weight: 500;
+}
+article.index {
+  @media (min-width: 500px) {
+    .info {
+      float: right;
+      width: calc(100% - 120px);
+      padding-left: 1.5em;
+      box-sizing: border-box;
+    }
+    .thumb {
+      background-image: url(/img/thumb.png);
+      height: 120px;
+      width: 120px;
+      background-position: center;
+      background-size: cover;
+      float: left;
+    }
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  .meta {
+    opacity: .5;
+  }
+}
+.cover-image-container {
+  margin: 1.5em 0;
+}
+article.post {
+  h1 {
+    font-size: 2.2em;
+  }
+}
+article.post .content {
+  font-size: 22px;
+  @media (max-width: 600px){
+    font-size: 18px;
+  }
+  em {
+    font-style: italic;
+  }
+  strong {
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.4em;
+  }
+  h3, h4, h5{
+    font-size: 1.1em;
+  }
+  h1, h2, h3, h4, h5 {
+    margin-bottom: -1em;
+  }
+  ul, ol, blockquote, p, hr {
+    margin: 1.5em 0;
+  }
+  p, ul, ol {
+    font-family: 'Freight Text Pro Web', serif;
+  }
+  li {
+    position: relative;
+    margin-left: 2.5em;
+    margin-bottom: .5em;
+  }
+  ul li::before {
+    content: '•';
+    display: block;
+    position: absolute;
+    font-size: .5em;
+    top: .85em;
+    left: -2em;
+  }
+  ol {
+    li {
+      margin-left: 2em;
+      padding-left: .5em;
+    }
+    list-style: decimal;
+  }
+  hr {
+    border: none;
+  }
+  hr::before{
+    content: '\00B7 \00B7 \00B7';
+    font-size: 1.5em;
+    line-height: 1;
+    display: block;
+    text-align: center;
+    letter-spacing: .5em;
+  }
+  blockquote {
+    p {
+      font-family: 'Freight Sans Pro Web', serif;
+      font-weight: 300;
+      font-size: 1.3em;
+    }
+    padding-left: 2em;
+  }
+  p {
+    a {
+      background-repeat: repeat-x;
+      background-image: linear-gradient(to right,rgba(0,0,0,.84) 100%,rgba(0,0,0,0) 0);
+      background-image: linear-gradient(to right,currentColor 100%,currentColor 0);
+      background-size: 1px 1px;
+      background-position: 0 1.1em;
+      background-position: 0 calc(1em + 2px);
+    }
+    code {
+      font-size: .8em;
+      display: inline-block;
+      padding: 0 3px;
+      border-radius: 2px;
+      border: 1px solid rgba(0,0,0,.3);
+    }
+  }
+  p.img-only, p.img-only-source {
+    img {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    margin: 0 -20px;
+    @media (min-width: 780px){
+      margin: 0 calc(-50vw + 380px);
+    }
+    small {
+      font-size: 17px;
+      font-family: 'Freight Sans Pro Web', serif;
+      text-align: center;
+      display: block;
+      padding: 0 20px;
+    }
+  }
+  code {
+    font-family: monospace;
+  }
+  figure.highlight {
+    background-color: rgba(0,0,0,.8);
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 1em;
+    overflow-x: auto;
+  }
+}
+.devider-dot::after {
+  content: '\00B7';
+  margin: 0 .4em;
+}
+.pagination {
+  font-weight: 500;
+  .disabled {
+    opacity: .3;
+  }
+  .left {
+    float: left;
+    width: 50%;
+    a {
+      padding: 10px 10px 10px 0;
+    }
+  }
+  .right {
+    float: right;
+    width: 50%;
+    text-align: right;
+    a {
+      padding: 10px 0px 10px 10px;
+    }
+  }
+}
+footer {
+  text-align: center;
+}
