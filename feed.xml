@@ -19,7 +19,7 @@
 				{% endif %}
 				{% if post.summary %}
 					<description>{{ post.summary | xml_escape }}</description>
-				{% else if post.excerpt %}
+				{% elsif post.excerpt %}
 					<description>{{ post.excerpt | xml_escape }}</description>
 				{% else %}
 					<description>{{ post.content | xml_escape }}</description>

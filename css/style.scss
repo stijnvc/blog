@@ -248,9 +248,11 @@ article.post .content {
       max-width: 1200px;
       margin: 0 auto;
     }
-    margin: 0 -20px;
+    margin-left: -20px;
+    margin-right: -20px;
     @media (min-width: 780px){
-      margin: 0 calc(-50vw + 380px);
+      margin-left: calc(-50vw + 380px);
+      margin-right: calc(-50vw + 380px);
     }
     small {
       font-size: 17px;
@@ -269,6 +271,12 @@ article.post .content {
     line-height: 1.2;
     padding: 1em;
     overflow-x: auto;
+  }
+}
+article.post {
+  .meta {
+    margin-bottom: 1.5em;
+    display: block;
   }
 }
 article.post .content {

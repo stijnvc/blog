@@ -16,7 +16,7 @@ home: true
 
   <article class="index clearfix">
     <a href="{{ post.url | prepend: site.baseurl }}">
-      <div class="thumb" {% if post.cover-image %}style="background-image: url({{ site.baseurl }}/img/covers/{{ post.cover-image }});"{% endif %}></div>
+      <div class="thumb" {% if post.thumbnail %}style="background-image: url({{ site.baseurl }}/img/thumbs/{{ post.thumbnail }});"{% elsif post.cover-image %}style="background-image: url({{ site.baseurl }}/img/covers/{{ post.cover-image }});"{% endif %}></div>
       <div class="info">
         <span class="meta">
       	<h1>{{ post.title }}</h1>
