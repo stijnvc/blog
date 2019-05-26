@@ -15,6 +15,7 @@ description:
 url: https://blog.stijnvancuijk.com
 baseurl: ""
 
+author: Stijn van Cuijk
 # language attribute in <html> element.
 lang: en
 
@@ -38,7 +39,7 @@ theme-color-attr: "#00f0ff"
 ms-tile-color: "#00f0ff"
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-date_format: "%b %-d, %Y"
+date_format: "%B %-d, %Y"
 
 # Minimal screen-width after which the navigation will change position from
 # vertical to horizontal.
@@ -94,7 +95,7 @@ var_older: Older
 var_next_post: Next post
 var_previous_post: Previous post
 var_less_than_a_minute_read: Less than a minute read
-var_min_read: min read # Text after reading time. Example: 5 min read.
+var_min_read: minute read # Text after reading time. Example: 5 min read.
 var_post_by: Post by
 var_guest_post_by: Guest post by
 var_your_email: Your email

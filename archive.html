@@ -1,5 +1,5 @@
 ---
-title: Time Machine
+title: Archive
 layout: page
 ---
 
@@ -7,14 +7,19 @@ layout: page
   {% for post in site.posts %}
 
     {% unless post.next %}
+      </p>
       <h3>{{ post.date | date: '%Y' }}</h3>
+      <p>
     {% else %}
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
+        </p>
         <h3>{{ post.date | date: '%Y' }}</h3>
+        <p>
       {% endif %}
     {% endunless %}
 
-    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small> • {{ post.date | date: site.date_format }}</small></p>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small><span class="devider-dot"></span>{{ post.date | date: site.date_format }}</small><br>
   {% endfor %}
+  </p>

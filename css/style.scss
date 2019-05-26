@@ -161,11 +161,8 @@ article.post {
     font-size: 2.2em;
   }
 }
+article.page,
 article.post .content {
-  font-size: 22px;
-  @media (max-width: 600px){
-    font-size: 18px;
-  }
   em {
     font-style: italic;
   }
@@ -182,13 +179,11 @@ article.post .content {
     font-size: 1.1em;
   }
   h1, h2, h3, h4, h5 {
-    margin-bottom: -1em;
+    //margin-bottom: -1em;
   }
   ul, ol, blockquote, p, hr {
-    margin: 1.5em 0;
-  }
-  p, ul, ol {
-    font-family: 'Freight Text Pro Web', serif;
+    margin-top: .5em;
+    margin-bottom: 1.5em;
   }
   li {
     position: relative;
@@ -221,6 +216,7 @@ article.post .content {
     text-align: center;
     letter-spacing: .5em;
   }
+
   blockquote {
     p {
       font-family: 'Freight Sans Pro Web', serif;
@@ -273,6 +269,15 @@ article.post .content {
     line-height: 1.2;
     padding: 1em;
     overflow-x: auto;
+  }
+}
+article.post .content {
+  font-size: 22px;
+  @media (max-width: 600px){
+    font-size: 18px;
+  }
+  p, ul, ol {
+    font-family: 'Freight Text Pro Web', serif;
   }
 }
 .devider-dot::after {

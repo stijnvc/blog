@@ -8,6 +8,8 @@ cover-image: brain.jpg
 
 I like to believe that **everyone** is creative. If you pay attention you can see creativity at work in most people's daily lives. Even completing some of the most mundane tasks can require creativity. The rather broad definition of creativity lends itself to being applied to all sorts of phenomena. In de context of this essay I like to think of it as the ability to come up with new ideas.
 
+<!--more-->
+
 Besides, the problem is not whether people are creative or not, but rather their willingness to participate and act on their creativity at the desired moments. Especially when trying to involve people into the creative process who are high up in the decision making hierarchy within companies I experience this unwillingness.
 
 My hypothesis is that when people enter a position of leadership they start feeling obliged to always have a strong and certain answer: a workable (or sometime unworkable) truth for people to take as an answer to their questions. Many times this truth is not wrong. Many people in leadership positions have great expertise in their field. Though a problem arises when there is a need for change, creativity and innovation.
